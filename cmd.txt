@@ -1,1 +1,12 @@
 goose postgres "postgresql://localhost:7777/hashtag?user=hashtag&password=hashtag&sslmode=${ADRY_DB_SSL}" status
+
+
+Usage:
+  sqlc [command]
+
+Available Commands:
+  compile     Statically check SQL for syntax and type errors
+  generate    Generate Go code from SQL
+  help        Help about any command
+  init        Create an empty sqlc.yaml settings file
+  version     Print the sqlc version number
